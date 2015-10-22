@@ -1,0 +1,20 @@
+{
+  "name": "pthtml",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "1.11.1",
+    "seajs": "git@github.com:seajs/seajs.git"
+  },
+  "devDependencies": {
+  },
+  "appPath": "app",
+  "moduleName": "jqduangWebApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
